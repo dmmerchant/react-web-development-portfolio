@@ -1,0 +1,32 @@
+.nav {
+  align-self: center;
+  margin: 5px;
+  padding-right: 30px;
+}
+
+.nav ul li {
+  display: inline;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav ul li:hover {
+  box-shadow: 0px 0px 2px 2px white
+}
+
+.nav ul li:active {
+  background-color: var(--secondary-text);
+}
+
+.nav ul li a {
+  font-size: large;
+  color: white;
+  text-decoration-thickness: 2px;
+}
+
+.contactinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
