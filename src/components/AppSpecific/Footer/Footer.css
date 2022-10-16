@@ -1,25 +1,25 @@
-.nav {
+.footer {
   align-self: center;
   margin: 5px;
   padding-right: 30px;
 }
 
-.nav ul li {
+.footer ul li {
   display: inline;
   background-color: var(--secondary);
   border-radius: 5px;
   padding: 5px;
 }
 
-.nav ul li:hover {
+.footer ul li:hover {
   box-shadow: 0px 0px 2px 2px white
 }
 
-.nav ul li:active {
+.footer ul li:active {
   background-color: var(--secondary-text);
 }
 
-.nav ul li a {
+.footer ul li a {
   font-size: large;
   color: white;
   text-decoration-thickness: 2px;
@@ -27,6 +27,7 @@
 
 .contactinfo {
   display: flex;
+  flex-wrap: true;
   align-items: center;
   justify-content: space-around;
 }

@@ -1,17 +1,13 @@
 import React from 'react';
-import AboutMe from '../AboutMe';
-import Project from '../Project';
+
+import imgProfile from '../../../assets/media/devonmerchant.jpg'
 import './Hero.css';
 
-export default function Hero({hero , project}) {
+export default function AboutMe() {
   return (
-    <div>
-      {(hero === "AboutMe" || !project) ? (
-        <AboutMe />
-      ) : (
-        // If we are logged out, render this:
-        <Project project={project}/>
-      )}
+    <div className='hero'>
+      <img src={imgProfile} alt="Devon Merchant" />
+      <figcaption>Let me work harder, so you can work smarter!</figcaption>
     </div>
   );
 }

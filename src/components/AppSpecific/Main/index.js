@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../Generic/Card'
+import Project from '../../AppSpecific/Project'
 import {projects} from '../../../data/projects'
 import './Main.css';
 export default function Main() {
@@ -17,7 +17,7 @@ export default function Main() {
                 <h2>Work</h2>
                 <article className="container">
                     {projects.map((project) => (
-                        <Card object={project} key={project.id} />
+                        <Project object={project} key={project.id} />
                     ))}
                 </article>
             </section>

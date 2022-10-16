@@ -8,32 +8,36 @@ const projects = [
 {
     id: 1,
     name: 'Recipe Finder',
-    url:'https://dmmerchant.github.io/Waste-Not-Recipe-Finder/',
-    tags: 'MERN',
-    description: '',
+    urlDeploy:'https://dmmerchant.github.io/Waste-Not-Recipe-Finder/',
+    urlGitHub:'',
+    tags: ['MERN','CSS'],
+    description: 'This is my description for the Recipe Finder',
     image: recipeFinder
 },
 {
     id: 2,
-    name: 'Rocks Paper Scissors',
-    url:'https://dmmerchant.github.io/Rock-Paper-Scissor-Game/',
-    tags: 'MERN',
+    name: 'Rock Paper Scissors',
+    urlDeploy:'https://dmmerchant.github.io/Rock-Paper-Scissor-Game/',
+    urlGitHub:'',
+    tags: ['MERN'],
     description: '',
     image: rocksPaperScissor
 },
 {
     id: 3,
     name: 'CSS Snippets',
-    url:'https://dmmerchant.github.io/CSS-Snippet-MiniProj/',
-    tags: 'MERN',
+    urlDeploy:'https://dmmerchant.github.io/CSS-Snippet-MiniProj/',
+    urlGitHub:'',
+    tags: ['MERN'],
     description: '',
     image: cssSnippets
 },
 {
     id: 4,
     name: 'Example Project',
-    url:'https://dmmerchant.github.io/Waste-Not-Recipe-Finder/',
-    tags: 'MERN',
+    urlDeploy:'https://dmmerchant.github.io/Waste-Not-Recipe-Finder/',
+    urlGitHub:'',
+    tags: ['MERN'],
     description: '',
     image: placeHolder
 }
