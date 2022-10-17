@@ -1,14 +1,29 @@
 .footer {
-  align-self: center;
-  margin: 5px;
+  position:sticky;
+  Bottom:0;
+  background-color: var(--primary-dark);
+  display:flex;
+  color:var(--primary-text);
+  border-top: var(--primary-light) ridge;
+  z-index: 5;
+  align-items: center;
+  margin: 0px;
   padding-right: 30px;
 }
-
+.footer ul{
+  display:flex;
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+  flex-wrap: true;
+  align-items: center;
+}
 .footer ul li {
   display: inline;
   background-color: var(--secondary);
   border-radius: 5px;
   padding: 5px;
+  margin: 5px 10px 5px 10px;
 }
 
 .footer ul li:hover {
@@ -25,9 +40,15 @@
   text-decoration-thickness: 2px;
 }
 
-.contactinfo {
-  display: flex;
-  flex-wrap: true;
-  align-items: center;
-  justify-content: space-around;
+@media screen and (max-width: 768px) {
+  .footer {
+    position:relative;
+  }
+  .footer ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+  }
 }

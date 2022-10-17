@@ -8,7 +8,7 @@ export default function Navigation() {
             <ul>
                 <li><a href="#AboutMe">About Me</a></li>
                 <li><a href="#MyWork">Work</a></li>
-                <li><a href="#ContactMe">Contact Me</a></li>
+                <li id='bttnContact'><a href="#ContactMe">Contact Me</a></li>
             </ul>
         </div>
     );

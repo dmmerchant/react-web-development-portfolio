@@ -61,31 +61,35 @@
   .MERN {
     background: #56CCF2;
     background: linear-gradient(to bottom, #2F80ED, #56CCF2);
-    color: #fafafa;
+    color: var(--primary-text);
   }
 
   .HTML {
     background: #D1913C;
-    background: linear-gradient(to bottom, #FFD194, #D1913C);
-    color: #fafafa;
+    background: linear-gradient(to bottom, #a07b4b, #805318);
+    color: var(--primary-text);
   }
-
+  .JS {
+    background: #e099d7;
+    background: linear-gradient(to bottom, #ef3a8e, #680552);
+    color: var(--primary-text);
+  }
   .REACT {
-    background: #cb2d3e;
+    background: #1b7945;
     background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-    color: #fafafa;
+    color: var(--primary-text);
   }
   .CSS {
     background: #cb2d3e;
-    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-    color: #fafafa;
+    background: linear-gradient(to bottom, #ef473a, #570810);
+    color: var(--primary-text);
   }
 
   .card_body h4 {
     font-size: 1.5rem;
     font-weight: bolder;
-    color: #A597AE;
-    -webkit-text-stroke: #5A6851 1px;
+    color: var(--primary-text);
+    -webkit-text-stroke: #5A6851 .5px;
   }
   .card_body_title{
     display: flex;

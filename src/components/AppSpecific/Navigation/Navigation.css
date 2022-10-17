@@ -17,10 +17,24 @@
 .navigation li:active {
     background-color: var(--secondary-text);
   }
-  
+
+
 .navigation ul li a {
   
     font-size: large;
     color: white;
     text-decoration-thickness: 2px;
+  }
+
+  #bttnContact {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navigation {
+      margin:5px;
+    }
+    #bttnContact {
+      display: inline;
+    }
   }

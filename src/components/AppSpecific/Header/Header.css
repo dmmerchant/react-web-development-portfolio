@@ -9,14 +9,16 @@
   border-bottom: var(--primary-light) ridge;
   z-index: 5;
 }
-h1 {
+.header h1 {
+  text-align: center;
   background-color: var(--primary-light);
-  padding-left: 25px;
-  padding-right: 10px;
+  padding: 4px;
   font-family: "Arial Black", Helvetica, sans-serif;
   color: white;
   -webkit-text-stroke: var(--secondary-text) 1px;
-  margin: 0px;
+  margin: 4px;
+  border-radius: 25px;
+  flex-grow: 1;
 }
 
 
