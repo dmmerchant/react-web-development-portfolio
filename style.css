@@ -1,0 +1,199 @@
+:root {
+    --primary: #3B473B;
+    --primary-dark:#161B16;
+    --primary-light:#5A6851;
+    --primary-extralight:#87997b;
+    --primary-text:#fdfdfd;
+    --secondary: #69573c;
+    --secondary-dark: #31291E;
+    --secondary-light:#69573c88;
+    --secondary-text:#8b3939;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position:sticky;
+    Top:0;
+    background-color: var(--primary-dark);
+    display:flex;
+    justify-content: space-between;
+    color:var(--primary-text);
+    border-bottom: var(--primary-light) ridge;
+    z-index: 5;
+    
+}
+header h1 {
+    background-color: var(--primary-light);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: var(--secondary-text) 1px;
+    
+}
+
+nav {
+    align-self: center;
+    margin:5px;
+    padding-right:30px;
+}
+nav ul li {
+    display: inline;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding: 5px;
+}
+nav ul li:hover {
+    box-shadow: 0px 0px 2px 2px white
+}
+
+nav ul li:active {
+    background-color: var(--secondary-text);
+}
+
+nav ul li a {
+
+    font-size: large;
+    color: white;
+    text-decoration-thickness: 2px;
+}
+
+.main {
+    display: flex;
+    flex:1;
+}
+
+.hero img {
+    flex: 0 0 auto;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    border: var(--primary-dark) 2px solid;
+    box-shadow: 0px 0px 2px 2px var(--primary-dark), 0px 0px 4px 4px var(--primary), 0px 0px 6px 8px var(--primary-light), 0px 0px 8px 12px var(--primary-text)
+}
+.hero figcaption {
+    flex: 0 1 auto;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Papyrus";
+    font-size: 30px;
+    background-color: var(--secondary-light);
+    border-style: double;
+    border-color: #8b3939;
+    color:rgb(238, 184, 113);
+    transform: rotate(5deg);
+}
+
+main {
+    background-color: var(--secondary-light);
+    display:flex;
+    flex:1;
+    flex-direction: column;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+main section h2 {
+    flex:0 1 20%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+main section article {
+    flex: 1;
+    min-height: 100px ;
+    margin: 20px;
+    border-left: black 2px solid;
+    align-items: center;
+    padding: 20px
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card:first-child{ 
+    flex:1 0 100%; 
+}
+
+.card {
+    flex: 0 1 45%;
+    margin: 5px;
+    position: relative;
+    border:#8b3939 2px solid;
+    color:white;
+}
+
+.card:hover, .card:hover figcaption{
+    box-shadow: 0px 0px 2px 2px white
+}
+
+
+
+.card img {
+    z-index: 1;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+
+
+}
+.card figcaption {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 2;
+    background-color: var(--primary-extralight);
+    padding: 10px;
+    border: groove 1px var(--secondary-text);
+}
+.card figcaption p:first-child {
+    font-weight: bold;
+    font-size: large;
+}
+
+.contactinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    header,.hero, main section {
+        flex-direction: column;
+    }
+    .hero figcaption {
+        transform: rotate(0deg);
+    }
+    main section h2 {
+        text-decoration: underline solid 2px;
+        text-align: center;
+    }
+    main section article {
+        border-left: 0;
+        min-height: auto;
+    }
+
+    .card figcaption {
+        left: 0;
+        bottom: 0;
+    }
+}
