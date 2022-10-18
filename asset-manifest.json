@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-web-development-portfolio/static/css/main.a7fbe869.css",
-    "main.js": "/react-web-development-portfolio/static/js/main.126420bd.js",
-    "static/js/787.c5c85359.chunk.js": "/react-web-development-portfolio/static/js/787.c5c85359.chunk.js",
-    "static/media/devonmerchant.jpg": "/react-web-development-portfolio/static/media/devonmerchant.13b76e3dd1804e22b0f5.jpg",
-    "static/media/recipe-finder.png": "/react-web-development-portfolio/static/media/recipe-finder.05c98d30fc3b49ca6679.png",
-    "static/media/banner-background.jpg": "/react-web-development-portfolio/static/media/banner-background.0c99356377318ecd9410.jpg",
-    "static/media/RPS-Image.png": "/react-web-development-portfolio/static/media/RPS-Image.6b7c0e2d39974744899c.png",
-    "static/media/github.png": "/react-web-development-portfolio/static/media/github.39e986cf3049d714012f.png",
-    "static/media/CSS_Snippets.png": "/react-web-development-portfolio/static/media/CSS_Snippets.e1d9c919bdf032254179.png",
-    "static/media/DeployIcon.png": "/react-web-development-portfolio/static/media/DeployIcon.d8b2c630d74b8bcc6f79.png",
-    "index.html": "/react-web-development-portfolio/index.html",
-    "main.a7fbe869.css.map": "/react-web-development-portfolio/static/css/main.a7fbe869.css.map",
-    "main.126420bd.js.map": "/react-web-development-portfolio/static/js/main.126420bd.js.map",
-    "787.c5c85359.chunk.js.map": "/react-web-development-portfolio/static/js/787.c5c85359.chunk.js.map"
+    "main.css": "/static/css/main.9bc3e8d1.css",
+    "main.js": "/static/js/main.cd836764.js",
+    "static/js/787.c5c85359.chunk.js": "/static/js/787.c5c85359.chunk.js",
+    "static/media/devonmerchant.jpg": "/static/media/devonmerchant.13b76e3dd1804e22b0f5.jpg",
+    "static/media/recipe-finder.png": "/static/media/recipe-finder.05c98d30fc3b49ca6679.png",
+    "static/media/banner-background.jpg": "/static/media/banner-background.0c99356377318ecd9410.jpg",
+    "static/media/RPS-Image.png": "/static/media/RPS-Image.6b7c0e2d39974744899c.png",
+    "static/media/github.png": "/static/media/github.39e986cf3049d714012f.png",
+    "static/media/CSS_Snippets.png": "/static/media/CSS_Snippets.e1d9c919bdf032254179.png",
+    "static/media/DeployIcon.png": "/static/media/DeployIcon.d8b2c630d74b8bcc6f79.png",
+    "index.html": "/index.html",
+    "main.9bc3e8d1.css.map": "/static/css/main.9bc3e8d1.css.map",
+    "main.cd836764.js.map": "/static/js/main.cd836764.js.map",
+    "787.c5c85359.chunk.js.map": "/static/js/787.c5c85359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7fbe869.css",
-    "static/js/main.126420bd.js"
+    "static/css/main.9bc3e8d1.css",
+    "static/js/main.cd836764.js"
   ]
 }
